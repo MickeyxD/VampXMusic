@@ -1,0 +1,11 @@
+---
+application:
+  name: "vampxmusic"
+  project: "VampXMusic"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-vcplaybot"
+  routes:
+  - application_name: "vampxmusic"
+    paths:
+    - "/*"
